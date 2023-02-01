@@ -10,10 +10,16 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: IBL - Brain Wide Map (2023). (Version draft) [Data set]. DANDI archive.
-  https://dandiarchive.org/dandiset/000409/draft
+citation: International Brain Laboratory (2023) IBL - Brain Wide Map (Version draft)
+  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000409/draft
 contributor:
-- {}
+- contactPoint: []
+  email: info@internationalbrainlab.org
+  includeInCitation: true
+  name: International Brain Laboratory
+  roleName: []
+  schemaKey: Organization
+  url: https://www.internationalbrainlab.com/
 dateCreated: '2023-01-31T21:47:46.772688+00:00'
 description: 'Coming soon...
 
