@@ -50,7 +50,8 @@ contributor:
   email: info@internationalbrainlab.org
   includeInCitation: true
   name: International Brain Laboratory
-  roleName: []
+  roleName:
+  - dcite:ContactPerson
   schemaKey: Organization
   url: https://www.internationalbrainlab.com/
 dateCreated: '2023-01-31T21:47:46.772688+00:00'
