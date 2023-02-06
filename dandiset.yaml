@@ -43,10 +43,8 @@ assetsSummary:
   - ElectrodeGroup
   - Units
   - PupilTracking
-citation: "International Brain Laboratory; Brandon\t Benson; Julius\t Benson; Daniel\t
-  Birman; Niccolò\tBonacchi; Matteo\t Carandini; Joana\tA\tCatarino; Gaelle\tA\tChapuis;
-  Peter\t Dayan; Eric\tEJ\tDeWitt (2023) IBL - Brain Wide Map (Version draft) [Data
-  set]. DANDI archive. https://dandiarchive.org/dandiset/000409/draft"
+citation: International Brain Laboratory (2023) IBL - Brain Wide Map (Version draft)
+  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000409/draft
 contributor:
 - contactPoint: []
   email: info@internationalbrainlab.org
@@ -56,95 +54,44 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Organization
   url: https://www.internationalbrainlab.com/
-- affiliation:
-  - identifier: https://ror.org/00f54p054
-    name: Stanford University
-    schemaKey: Affiliation
-  identifier: 0000-0003-3719-4358
-  includeInCitation: true
-  name: "Brandon\t Benson"
+- awardNumber: 209558, 216324
+  contactPoint: []
+  identifier: https://ror.org/029chgv08
+  includeInCitation: false
+  name: Wellcome Trust
   roleName:
-  - dcite:Author
-  schemaKey: Person
-- affiliation:
-  - identifier: https://ror.org/0190ak572
-    name: New York University
-    schemaKey: Affiliation
-  includeInCitation: true
-  name: "Julius\t Benson"
+  - dcite:Funder
+  schemaKey: Organization
+  url: http://www.wellcome.ac.uk
+- contactPoint: []
+  identifier: https://ror.org/01cmst727
+  includeInCitation: false
+  name: Simons Foundation
   roleName:
-  - dcite:Author
-  schemaKey: Person
-- affiliation:
-  - identifier: https://ror.org/00cvxb145
-    name: University of Washington
-    schemaKey: Affiliation
-  identifier: 0000-0003-3748-6289
-  includeInCitation: true
-  name: "Daniel\t Birman"
-  roleName: []
-  schemaKey: Person
-- affiliation: []
-  identifier: 0000-0001-5228-6918
-  includeInCitation: true
-  name: "Niccolò\tBonacchi"
-  roleName: []
-  schemaKey: Person
-- affiliation:
-  - identifier: https://ror.org/02jx3x895
-    name: University College London
-    schemaKey: Affiliation
-  identifier: 0000-0003-4880-7682
-  includeInCitation: true
-  name: "Matteo\t Carandini"
-  roleName: []
-  schemaKey: Person
-- affiliation:
-  - identifier: https://ror.org/03g001n57
-    name: Champalimaud Foundation
-    schemaKey: Affiliation
-  identifier: 0000-0003-4880-7682
-  includeInCitation: true
-  name: "Joana\tA\tCatarino"
-  roleName: []
-  schemaKey: Person
-- affiliation:
-  - identifier: https://ror.org/01swzsf04
-    name: University of Geneva
-    schemaKey: Affiliation
-  includeInCitation: true
-  name: "Gaelle\tA\tChapuis"
-  roleName: []
-  schemaKey: Person
-- affiliation:
-  - identifier: https://ror.org/01hhn8329
-    name: Max-Planck-Gesellschaft zur Förderung der Wissenschaften
-    schemaKey: Affiliation
-  identifier: 0000-0003-3476-1839
-  includeInCitation: true
-  name: "Peter\t Dayan"
-  roleName: []
-  schemaKey: Person
-- affiliation: []
-  identifier: 0000-0001-9182-8257
-  includeInCitation: true
-  name: "Eric\tEJ\tDeWitt"
-  roleName: []
-  schemaKey: Person
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://www.simonsfoundation.org
+- awardNumber: 1U19NS123716, Diversity Supplement, Administrative Supplement to Support
+    Enhancement of Software Tools for Open Science
+  contactPoint: []
+  identifier: https://ror.org/01cwqze88
+  includeInCitation: false
+  name: National Institutes of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: http://www.nih.gov/
 dateCreated: '2023-01-31T21:47:46.772688+00:00'
-description: 'Coming soon...
-
-
-  The International Brain lab (IBL) aims to understand the neural basis of decision-making
-  in the mouse by gathering a whole-brain activity map composed of electrophysiological
-  recordings pooled from multiple laboratories. We have systematically recorded from
-  nearly all major brain areas with Neuropixels probes, using a grid system for unbiased
-  sampling and replicating each recording site in at least two laboratories. These
-  data have been used to construct a brain-wide map of activity at single-spike cellular
-  resolution during a decision-making task. In addition to the map, this data set
-  contains other information gathered during the task: sensory stimuli presented to
-  the mouse; mouse decisions and response times; and mouse pose information from video
-  recordings and DeepLabCut analysis.'
+description: 'The International Brain lab (IBL) aims to understand the neural basis
+  of decision-making in the mouse by gathering a whole-brain activity map composed
+  of electrophysiological recordings pooled from multiple laboratories. We have systematically
+  recorded from nearly all major brain areas with Neuropixels probes, using a grid
+  system for unbiased sampling and replicating each recording site in at least two
+  laboratories. These data have been used to construct a brain-wide map of activity
+  at single-spike cellular resolution during a decision-making task. In addition to
+  the map, this data set contains other information gathered during the task: sensory
+  stimuli presented to the mouse; mouse decisions and response times; and mouse pose
+  information from video recordings and DeepLabCut analysis.'
 ethicsApproval: []
 id: DANDI:000409/draft
 identifier: DANDI:000409
