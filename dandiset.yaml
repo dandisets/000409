@@ -44,8 +44,9 @@ assetsSummary:
   - Units
   - PupilTracking
 citation: "International Brain Laboratory; Brandon\t Benson; Julius\t Benson; Daniel\t
-  Birman; Niccolò\tBonacchi; Matteo\t Carandini; Joana\tA\tCatarino; Gaelle\tA\tChapuis
-  (2023) IBL - Brain Wide Map (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000409/draft"
+  Birman; Niccolò\tBonacchi; Matteo\t Carandini; Joana\tA\tCatarino; Gaelle\tA\tChapuis;
+  Peter\t Dayan; Eric\tEJ\tDeWitt (2023) IBL - Brain Wide Map (Version draft) [Data
+  set]. DANDI archive. https://dandiarchive.org/dandiset/000409/draft"
 contributor:
 - contactPoint: []
   email: info@internationalbrainlab.org
@@ -113,6 +114,21 @@ contributor:
     schemaKey: Affiliation
   includeInCitation: true
   name: "Gaelle\tA\tChapuis"
+  roleName: []
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/01hhn8329
+    name: Max-Planck-Gesellschaft zur Förderung der Wissenschaften
+    schemaKey: Affiliation
+  identifier: 0000-0003-3476-1839
+  includeInCitation: true
+  name: "Peter\t Dayan"
+  roleName: []
+  schemaKey: Person
+- affiliation: []
+  identifier: 0000-0001-9182-8257
+  includeInCitation: true
+  name: "Eric\tEJ\tDeWitt"
   roleName: []
   schemaKey: Person
 dateCreated: '2023-01-31T21:47:46.772688+00:00'
