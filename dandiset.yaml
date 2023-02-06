@@ -43,8 +43,9 @@ assetsSummary:
   - ElectrodeGroup
   - Units
   - PupilTracking
-citation: International Brain Laboratory (2023) IBL - Brain Wide Map (Version draft)
-  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000409/draft
+citation: "International Brain Laboratory; Brandon\t Benson; Julius\t Benson; Daniel\t
+  Birman; Niccolò\tBonacchi; Matteo\t Carandini; Joana\tA\tCatarino; Gaelle\tA\tChapuis
+  (2023) IBL - Brain Wide Map (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000409/draft"
 contributor:
 - contactPoint: []
   email: info@internationalbrainlab.org
@@ -54,6 +55,66 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Organization
   url: https://www.internationalbrainlab.com/
+- affiliation:
+  - identifier: https://ror.org/00f54p054
+    name: Stanford University
+    schemaKey: Affiliation
+  identifier: 0000-0003-3719-4358
+  includeInCitation: true
+  name: "Brandon\t Benson"
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/0190ak572
+    name: New York University
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: "Julius\t Benson"
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/00cvxb145
+    name: University of Washington
+    schemaKey: Affiliation
+  identifier: 0000-0003-3748-6289
+  includeInCitation: true
+  name: "Daniel\t Birman"
+  roleName: []
+  schemaKey: Person
+- affiliation: []
+  identifier: 0000-0001-5228-6918
+  includeInCitation: true
+  name: "Niccolò\tBonacchi"
+  roleName: []
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/02jx3x895
+    name: University College London
+    schemaKey: Affiliation
+  identifier: 0000-0003-4880-7682
+  includeInCitation: true
+  name: "Matteo\t Carandini"
+  roleName: []
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/03g001n57
+    name: Champalimaud Foundation
+    schemaKey: Affiliation
+  identifier: 0000-0003-4880-7682
+  includeInCitation: true
+  name: "Joana\tA\tCatarino"
+  roleName: []
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/01swzsf04
+    name: University of Geneva
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: "Gaelle\tA\tChapuis"
+  roleName: []
+  schemaKey: Person
 dateCreated: '2023-01-31T21:47:46.772688+00:00'
 description: 'Coming soon...
 
