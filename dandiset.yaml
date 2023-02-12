@@ -8,9 +8,9 @@ access:
   status: dandi:OpenAccess
 assetsSummary:
   approach:
-  - name: behavioral approach
-    schemaKey: ApproachType
   - name: electrophysiological approach
+    schemaKey: ApproachType
+  - name: behavioral approach
     schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
@@ -27,22 +27,22 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 399754724895
-  numberOfFiles: 7
-  numberOfSubjects: 1
+  numberOfBytes: 62846882597
+  numberOfFiles: 14
+  numberOfSubjects: 4
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
-  - Units
-  - ElectricalSeries
-  - PupilTracking
-  - ElectrodeGroup
   - CompassDirection
+  - Units
   - ProcessingModule
+  - ElectrodeGroup
+  - ElectricalSeries
   - SpatialSeries
+  - PupilTracking
 citation: International Brain Laboratory (2023) IBL - Brain Wide Map (Version draft)
   [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000409/draft
 contributor:
