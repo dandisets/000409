@@ -17,17 +17,17 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: spike sorting technique
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
     schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  - name: analytical technique
+  - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  - name: multi electrode extracellular electrophysiology recording technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 399754722431
+  numberOfBytes: 399754724895
   numberOfFiles: 7
   numberOfSubjects: 1
   schemaKey: AssetsSummary
@@ -36,12 +36,12 @@ assetsSummary:
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
-  - ProcessingModule
-  - ElectrodeGroup
   - Units
   - ElectricalSeries
   - PupilTracking
+  - ElectrodeGroup
   - CompassDirection
+  - ProcessingModule
   - SpatialSeries
 citation: International Brain Laboratory (2023) IBL - Brain Wide Map (Version draft)
   [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000409/draft
