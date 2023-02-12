@@ -17,17 +17,17 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
   - name: multi electrode extracellular electrophysiology recording technique
     schemaKey: MeasurementTechniqueType
-  - name: behavioral technique
-    schemaKey: MeasurementTechniqueType
-  - name: spike sorting technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 379224212170
+  numberOfBytes: 379224212123
   numberOfFiles: 4
   numberOfSubjects: 1
   schemaKey: AssetsSummary
@@ -37,12 +37,12 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - ProcessingModule
-  - PupilTracking
-  - SpatialSeries
   - ElectrodeGroup
   - Units
   - ElectricalSeries
+  - PupilTracking
   - CompassDirection
+  - SpatialSeries
 citation: International Brain Laboratory (2023) IBL - Brain Wide Map (Version draft)
   [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000409/draft
 contributor:
