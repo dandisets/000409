@@ -108,6 +108,11 @@ relatedResource:
   relation: dcite:IsDescribedBy
   schemaKey: Resource
   url: https://figshare.com/articles/preprint/Data_release_-_Brainwide_map_-_Q4_2022/21400815
+- identifier: https://doi.org/10.1101/2020.01.17.909838
+  name: 'Behavior: Appendix 2: IBL protocol for mice training'
+  relation: dcite:IsDescribedBy
+  schemaKey: Resource
+  url: https://figshare.com/articles/preprint/A_standardized_and_reproducible_method_to_measure_decision-making_in_mice_Appendix_2_IBL_protocol_for_mice_training/11634729
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
