@@ -17,18 +17,18 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
   - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
     schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
-  - name: multi electrode extracellular electrophysiology recording technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 81048193956
-  numberOfFiles: 18
+  numberOfBytes: 151270885322
+  numberOfFiles: 29
   numberOfSubjects: 4
   schemaKey: AssetsSummary
   species:
@@ -37,14 +37,14 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - Units
-  - ProcessingModule
-  - SpatialSeries
-  - ElectrodeGroup
   - CompassDirection
-  - ElectricalSeries
+  - SpatialSeries
+  - ProcessingModule
   - PupilTracking
-citation: International Brain Laboratory (2023) IBL - Brain Wide Map (Version draft)
-  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000409/draft
+  - ElectricalSeries
+  - ElectrodeGroup
+citation: International Brain Laboratory; test123 (2023) IBL - Brain Wide Map (Version
+  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000409/draft
 contributor:
 - contactPoint: []
   email: info@internationalbrainlab.org
@@ -81,6 +81,15 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
   url: http://www.nih.gov/
+- affiliation:
+  - identifier: https://ror.org/0190ak572
+    name: test
+    schemaKey: Affiliation
+  identifier: 0000-0003-4880-7682
+  includeInCitation: true
+  name: test123
+  roleName: []
+  schemaKey: Person
 dateCreated: '2023-01-31T21:47:46.772688+00:00'
 description: 'The International Brain lab (IBL) aims to understand the neural basis
   of decision-making in the mouse by gathering a whole-brain activity map composed
