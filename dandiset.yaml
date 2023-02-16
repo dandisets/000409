@@ -7,42 +7,9 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  approach:
-  - name: electrophysiological approach
-    schemaKey: ApproachType
-  - name: behavioral approach
-    schemaKey: ApproachType
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique:
-  - name: multi electrode extracellular electrophysiology recording technique
-    schemaKey: MeasurementTechniqueType
-  - name: behavioral technique
-    schemaKey: MeasurementTechniqueType
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
-  - name: analytical technique
-    schemaKey: MeasurementTechniqueType
-  - name: spike sorting technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 90123766935
-  numberOfFiles: 20
-  numberOfSubjects: 3
+  numberOfBytes: 1
+  numberOfFiles: 1
   schemaKey: AssetsSummary
-  species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
-    name: Mus musculus - House mouse
-    schemaKey: SpeciesType
-  variableMeasured:
-  - Units
-  - CompassDirection
-  - SpatialSeries
-  - ProcessingModule
-  - PupilTracking
-  - ElectricalSeries
-  - ElectrodeGroup
 citation: International Brain Laboratory; Benson, Brandon; Benson, Julius; Birman,
   Daniel; Bonacchi, Niccolò; Carandini, Matteo; Catarino, Joana; Chapuis, Gaelle;
   Dayan, Peter; DeWitt, Eric; Engel, Tatiana; Fabbri, Michele; Faulkner, Mayo; Fiete,
@@ -52,7 +19,7 @@ citation: International Brain Laboratory; Benson, Brandon; Benson, Julius; Birma
   Alejandro; Pouget, Alexandre; Rossant, Cyrille; Roth, Noam; Schaeffer, Rylan; Schartner,
   Michael; Shi, Yanliang; Socha, Karolina; Steinmetz, Nicholas; Svoboda, Karel; Urai,
   Anne; Wells, Miles; West, Steven; Whiteway, Mathew; Winter, Olivier; Witten, Ilana
-  (2023) IBL - Brain Wide Map (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000409/draft
+  (2023) IBL - Brain Wide Map (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - contactPoint: []
   email: info@internationalbrainlab.org
@@ -432,6 +399,7 @@ contributor:
   name: Witten, Ilana
   schemaKey: Person
 dateCreated: '2023-01-31T21:47:46.772688+00:00'
+datePublished: '2023-02-16T02:55:44.933097+00:00'
 description: 'The International Brain lab (IBL) aims to understand the neural basis
   of decision-making in the mouse by gathering a whole-brain activity map composed
   of electrophysiological recordings pooled from multiple laboratories. We have systematically
@@ -442,6 +410,7 @@ description: 'The International Brain lab (IBL) aims to understand the neural ba
   the map, this data set contains other information gathered during the task: sensory
   stimuli presented to the mouse; mouse decisions and response times; and mouse pose
   information from video recordings and DeepLabCut analysis.'
+doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000409/draft
 identifier: DANDI:000409
@@ -453,6 +422,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000409/versions/draft/assets/
 name: IBL - Brain Wide Map
 protocol: []
+publishedBy:
+  endDate: '2023-02-16T02:55:44.933097+00:00'
+  id: urn:uuid:78b8bdff-1260-4a33-b47d-72ba3ff67cd6
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-02-16T02:55:44.933097+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:2e432b56-01bd-4632-8047-f2bf35385b8f
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - name: Data release - Brainwide map - Q4 2022
   relation: dcite:IsDescribedBy
