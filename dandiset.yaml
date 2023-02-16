@@ -7,9 +7,42 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 1
-  numberOfFiles: 1
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  - name: behavioral approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 89902806330
+  numberOfFiles: 18
+  numberOfSubjects: 3
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - Units
+  - CompassDirection
+  - SpatialSeries
+  - ProcessingModule
+  - PupilTracking
+  - ElectricalSeries
+  - ElectrodeGroup
 citation: International Brain Laboratory; Benson, Brandon; Benson, Julius; Birman,
   Daniel; Bonacchi, Niccolò; Carandini, Matteo; Catarino, Joana; Chapuis, Gaelle;
   Dayan, Peter; DeWitt, Eric; Engel, Tatiana; Fabbri, Michele; Faulkner, Mayo; Fiete,
@@ -399,7 +432,7 @@ contributor:
   name: Witten, Ilana
   schemaKey: Person
 dateCreated: '2023-01-31T21:47:46.772688+00:00'
-datePublished: '2023-02-16T02:55:44.933097+00:00'
+datePublished: '2023-02-16T15:27:22.227532+00:00'
 description: 'The International Brain lab (IBL) aims to understand the neural basis
   of decision-making in the mouse by gathering a whole-brain activity map composed
   of electrophysiological recordings pooled from multiple laboratories. We have systematically
@@ -423,13 +456,13 @@ manifestLocation:
 name: IBL - Brain Wide Map
 protocol: []
 publishedBy:
-  endDate: '2023-02-16T02:55:44.933097+00:00'
-  id: urn:uuid:78b8bdff-1260-4a33-b47d-72ba3ff67cd6
+  endDate: '2023-02-16T15:27:22.227532+00:00'
+  id: urn:uuid:9e93f618-0f2e-4048-94cb-c975146ee310
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-02-16T02:55:44.933097+00:00'
+  startDate: '2023-02-16T15:27:22.227532+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:2e432b56-01bd-4632-8047-f2bf35385b8f
+  - id: urn:uuid:6d668eb2-9550-4014-8767-159403b2669a
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
