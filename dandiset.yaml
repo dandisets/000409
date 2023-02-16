@@ -27,7 +27,7 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 89902806330
+  numberOfBytes: 89978764716
   numberOfFiles: 18
   numberOfSubjects: 3
   schemaKey: AssetsSummary
@@ -40,9 +40,9 @@ assetsSummary:
   - CompassDirection
   - SpatialSeries
   - ProcessingModule
-  - PupilTracking
   - ElectricalSeries
   - ElectrodeGroup
+  - PupilTracking
 citation: International Brain Laboratory; Benson, Brandon; Benson, Julius; Birman,
   Daniel; Bonacchi, Niccolò; Carandini, Matteo; Catarino, Joana; Chapuis, Gaelle;
   Dayan, Peter; DeWitt, Eric; Engel, Tatiana; Fabbri, Michele; Faulkner, Mayo; Fiete,
