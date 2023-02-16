@@ -19,15 +19,15 @@ assetsSummary:
   measurementTechnique:
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  - name: behavioral technique
-    schemaKey: MeasurementTechniqueType
-  - name: analytical technique
+  - name: surgical technique
     schemaKey: MeasurementTechniqueType
   - name: multi electrode extracellular electrophysiology recording technique
     schemaKey: MeasurementTechniqueType
-  - name: surgical technique
+  - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 132954917423
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 132954923978
   numberOfFiles: 26
   numberOfSubjects: 4
   schemaKey: AssetsSummary
@@ -36,13 +36,13 @@ assetsSummary:
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
-  - SpatialSeries
-  - CompassDirection
+  - PupilTracking
   - ElectrodeGroup
   - Units
-  - PupilTracking
-  - ElectricalSeries
+  - SpatialSeries
   - ProcessingModule
+  - ElectricalSeries
+  - CompassDirection
 citation: International Brain Laboratory; Benson, Brandon; Benson, Julius; Birman,
   Daniel; Bonacchi, Niccolò; Carandini, Matteo; Catarino, Joana; Chapuis, Gaelle;
   Dayan, Peter; DeWitt, Eric; Engel, Tatiana; Fabbri, Michele; Faulkner, Mayo; Fiete,
