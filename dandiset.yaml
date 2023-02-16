@@ -8,41 +8,41 @@ access:
   status: dandi:OpenAccess
 assetsSummary:
   approach:
-  - name: electrophysiological approach
-    schemaKey: ApproachType
   - name: behavioral approach
+    schemaKey: ApproachType
+  - name: electrophysiological approach
     schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: multi electrode extracellular electrophysiology recording technique
+  - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  - name: spike sorting technique
+  - name: multi electrode extracellular electrophysiology recording technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 89978764716
-  numberOfFiles: 18
-  numberOfSubjects: 3
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 132954917423
+  numberOfFiles: 26
+  numberOfSubjects: 4
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
-  - Units
-  - CompassDirection
   - SpatialSeries
-  - ProcessingModule
-  - ElectricalSeries
+  - CompassDirection
   - ElectrodeGroup
+  - Units
   - PupilTracking
+  - ElectricalSeries
+  - ProcessingModule
 citation: International Brain Laboratory; Benson, Brandon; Benson, Julius; Birman,
   Daniel; Bonacchi, Niccolò; Carandini, Matteo; Catarino, Joana; Chapuis, Gaelle;
   Dayan, Peter; DeWitt, Eric; Engel, Tatiana; Fabbri, Michele; Faulkner, Mayo; Fiete,
