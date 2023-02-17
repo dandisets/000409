@@ -17,32 +17,32 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: spike sorting technique
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
   - name: multi electrode extracellular electrophysiology recording technique
     schemaKey: MeasurementTechniqueType
-  - name: analytical technique
+  - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  - name: behavioral technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 741275497753
-  numberOfFiles: 34
-  numberOfSubjects: 5
+  numberOfBytes: 1316397873149
+  numberOfFiles: 46
+  numberOfSubjects: 6
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
-  - PupilTracking
+  - ElectricalSeries
   - ElectrodeGroup
+  - CompassDirection
   - Units
   - SpatialSeries
+  - PupilTracking
   - ProcessingModule
-  - ElectricalSeries
-  - CompassDirection
 citation: International Brain Laboratory; Benson, Brandon; Benson, Julius; Birman,
   Daniel; Bonacchi, Niccolò; Carandini, Matteo; Catarino, Joana; Chapuis, Gaelle;
   Dayan, Peter; DeWitt, Eric; Engel, Tatiana; Fabbri, Michele; Faulkner, Mayo; Fiete,
@@ -432,7 +432,7 @@ contributor:
   name: Witten, Ilana
   schemaKey: Person
 dateCreated: '2023-01-31T21:47:46.772688+00:00'
-datePublished: '2023-02-16T15:27:22.227532+00:00'
+datePublished: '2023-02-17T11:35:56.578466+00:00'
 description: 'The International Brain lab (IBL) aims to understand the neural basis
   of decision-making in the mouse by gathering a whole-brain activity map composed
   of electrophysiological recordings pooled from multiple laboratories. We have systematically
@@ -456,13 +456,13 @@ manifestLocation:
 name: IBL - Brain Wide Map
 protocol: []
 publishedBy:
-  endDate: '2023-02-16T15:27:22.227532+00:00'
-  id: urn:uuid:9e93f618-0f2e-4048-94cb-c975146ee310
+  endDate: '2023-02-17T11:35:56.578466+00:00'
+  id: urn:uuid:76053312-4c92-4716-b224-5baabebfaf8a
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-02-16T15:27:22.227532+00:00'
+  startDate: '2023-02-17T11:35:56.578466+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:6d668eb2-9550-4014-8767-159403b2669a
+  - id: urn:uuid:7ef35f65-9489-4687-96d3-d0e36564b679
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
