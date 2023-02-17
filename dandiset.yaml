@@ -27,9 +27,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 2410000927748
-  numberOfFiles: 89
-  numberOfSubjects: 9
+  numberOfBytes: 2746981064082
+  numberOfFiles: 98
+  numberOfSubjects: 10
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -52,7 +52,7 @@ citation: International Brain Laboratory; Benson, Brandon; Benson, Julius; Birma
   Alejandro; Pouget, Alexandre; Rossant, Cyrille; Roth, Noam; Schaeffer, Rylan; Schartner,
   Michael; Shi, Yanliang; Socha, Karolina; Steinmetz, Nicholas; Svoboda, Karel; Urai,
   Anne; Wells, Miles; West, Steven; Whiteway, Mathew; Winter, Olivier; Witten, Ilana
-  (2023) IBL - Brain Wide Map (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+  (2023) IBL - Brain Wide Map (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000409/draft
 contributor:
 - contactPoint: []
   email: info@internationalbrainlab.org
@@ -432,7 +432,6 @@ contributor:
   name: Witten, Ilana
   schemaKey: Person
 dateCreated: '2023-01-31T21:47:46.772688+00:00'
-datePublished: '2023-02-17T14:29:05.063626+00:00'
 description: 'The International Brain lab (IBL) aims to understand the neural basis
   of decision-making in the mouse by gathering a whole-brain activity map composed
   of electrophysiological recordings pooled from multiple laboratories. We have systematically
@@ -443,30 +442,24 @@ description: 'The International Brain lab (IBL) aims to understand the neural ba
   the map, this data set contains other information gathered during the task: sensory
   stimuli presented to the mouse; mouse decisions and response times; and mouse pose
   information from video recordings and DeepLabCut analysis.'
-doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000409/draft
 identifier: DANDI:000409
 keywords:
 - International Brain Laboratory
+- multi-probe
+- Neuropixels
+- Allen Mouse Brain CCFv3
+- Allen Mouse Brain Atlas
+- head-fixed
+- decision-making
+- face-tracking
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000409/versions/draft/assets/
 name: IBL - Brain Wide Map
 protocol: []
-publishedBy:
-  endDate: '2023-02-17T14:29:05.063626+00:00'
-  id: urn:uuid:5367c561-d972-46d6-a4f7-02138d8817a5
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2023-02-17T14:29:05.063626+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:fa437476-79ae-44b3-89db-8a9f58d7ba18
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
 relatedResource:
 - name: Data release - Brainwide map - Q4 2022
   relation: dcite:IsDescribedBy
