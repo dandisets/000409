@@ -27,9 +27,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 9065579808127
-  numberOfFiles: 366
-  numberOfSubjects: 41
+  numberOfBytes: 9356137016157
+  numberOfFiles: 382
+  numberOfSubjects: 42
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -52,7 +52,7 @@ citation: International Brain Laboratory; Benson, Brandon; Benson, Julius; Birma
   Alejandro; Pouget, Alexandre; Rossant, Cyrille; Roth, Noam; Schaeffer, Rylan; Schartner,
   Michael; Shi, Yanliang; Socha, Karolina; Steinmetz, Nicholas; Svoboda, Karel; Urai,
   Anne; Wells, Miles; West, Steven; Whiteway, Mathew; Winter, Olivier; Witten, Ilana
-  (2023) IBL - Brain Wide Map (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000409/draft
+  (2023) IBL - Brain Wide Map (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - contactPoint: []
   email: info@internationalbrainlab.org
@@ -432,6 +432,7 @@ contributor:
   name: Witten, Ilana
   schemaKey: Person
 dateCreated: '2023-01-31T21:47:46.772688+00:00'
+datePublished: '2023-02-19T00:11:21.527002+00:00'
 description: 'The International Brain lab (IBL) aims to understand the neural basis
   of decision-making in the mouse by gathering a whole-brain activity map composed
   of electrophysiological recordings pooled from multiple laboratories. We have systematically
@@ -442,6 +443,7 @@ description: 'The International Brain lab (IBL) aims to understand the neural ba
   the map, this data set contains other information gathered during the task: sensory
   stimuli presented to the mouse; mouse decisions and response times; and mouse pose
   information from video recordings and DeepLabCut analysis.'
+doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000409/draft
 identifier: DANDI:000409
@@ -460,6 +462,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000409/versions/draft/assets/
 name: IBL - Brain Wide Map
 protocol: []
+publishedBy:
+  endDate: '2023-02-19T00:11:21.527002+00:00'
+  id: urn:uuid:0b700b1a-0c58-4bfd-8413-58cecaa2edea
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-02-19T00:11:21.527002+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:d18e1002-5ae7-4396-9d65-24e929aa5012
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - name: Data release - Brainwide map - Q4 2022
   relation: dcite:IsDescribedBy
