@@ -27,9 +27,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 28575231486400
-  numberOfFiles: 1006
-  numberOfSubjects: 91
+  numberOfBytes: 28729742620767
+  numberOfFiles: 1018
+  numberOfSubjects: 92
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
