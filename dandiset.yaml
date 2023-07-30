@@ -27,9 +27,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 33673903841542
-  numberOfFiles: 1328
-  numberOfSubjects: 109
+  numberOfBytes: 33731235055716
+  numberOfFiles: 1419
+  numberOfSubjects: 111
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -432,7 +432,7 @@ contributor:
   name: Witten, Ilana
   schemaKey: Person
 dateCreated: '2023-01-31T21:47:46.772688+00:00'
-datePublished: '2023-02-22T18:08:15.150409+00:00'
+datePublished: '2023-07-30T20:00:45.905908+00:00'
 description: 'The International Brain lab (IBL) aims to understand the neural basis
   of decision-making in the mouse by gathering a whole-brain activity map composed
   of electrophysiological recordings pooled from multiple laboratories. We have systematically
@@ -463,13 +463,13 @@ manifestLocation:
 name: IBL - Brain Wide Map
 protocol: []
 publishedBy:
-  endDate: '2023-02-22T18:08:15.150409+00:00'
-  id: urn:uuid:3ec75fb6-9347-40b5-a94d-1e2fe468dac5
+  endDate: '2023-07-30T20:00:45.905908+00:00'
+  id: urn:uuid:d81b4504-3056-41f7-91d6-b48fcc6e01b0
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-02-22T18:08:15.150409+00:00'
+  startDate: '2023-07-30T20:00:45.905908+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:82e22709-aa32-4e2d-aae0-1f244fbf9cf8
+  - id: urn:uuid:bc56a3f6-6af4-47d3-80a1-c07262be1780
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
