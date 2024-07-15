@@ -461,6 +461,12 @@ manifestLocation:
 name: IBL - Brain Wide Map
 protocol: []
 relatedResource:
+- identifier: https://doi.org/10.1101/2023.07.04.547681
+  name: A Brain-Wide Map of Neural Activity during Complex Behaviour
+  relation: dcite:IsDescribedBy
+  resourceType: dcite:Preprint
+  schemaKey: Resource
+  url: https://www.biorxiv.org/content/10.1101/2023.07.04.547681v2
 - name: Data release - Brainwide map - Q4 2022
   relation: dcite:IsDescribedBy
   schemaKey: Resource
