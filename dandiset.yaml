@@ -476,6 +476,13 @@ relatedResource:
   relation: dcite:IsDescribedBy
   schemaKey: Resource
   url: https://figshare.com/articles/preprint/A_standardized_and_reproducible_method_to_measure_decision-making_in_mice_Appendix_2_IBL_protocol_for_mice_training/11634729
+- identifier: ''
+  name: Conversion Software
+  relation: dcite:IsSourceOf
+  repository: catalystneuro/IBL-to-nwb
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://github.com/catalystneuro/IBL-to-nwb
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
