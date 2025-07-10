@@ -53,7 +53,7 @@ citation: International Brain Laboratory; Benson, Brandon; Benson, Julius; Birma
   Alejandro; Pouget, Alexandre; Rossant, Cyrille; Roth, Noam; Schaeffer, Rylan; Schartner,
   Michael; Shi, Yanliang; Socha, Karolina; Steinmetz, Nicholas; Svoboda, Karel; Urai,
   Anne; Wells, Miles; West, Steven; Whiteway, Mathew; Winter, Olivier; Witten, Ilana
-  (2024) IBL - Brain Wide Map (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000409/draft
+  (2025) IBL - Brain Wide Map (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000409/draft
 contributor:
 - contactPoint: []
   email: info@internationalbrainlab.org
@@ -460,7 +460,6 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000409/versions/draft/assets/
 name: IBL - Brain Wide Map
-protocol: []
 relatedResource:
 - identifier: https://doi.org/10.1101/2023.07.04.547681
   name: A Brain-Wide Map of Neural Activity during Complex Behaviour
@@ -489,7 +488,6 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
-studyTarget: []
 url: https://dandiarchive.org/dandiset/000409/draft
 version: draft
 wasGeneratedBy: []
