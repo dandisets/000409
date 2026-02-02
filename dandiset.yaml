@@ -28,8 +28,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 34896332349937
-  numberOfFiles: 1632
+  numberOfBytes: 35080108958897
+  numberOfFiles: 1657
   numberOfSubjects: 115
   schemaKey: AssetsSummary
   species:
