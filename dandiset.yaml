@@ -28,8 +28,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 83147796661415
-  numberOfFiles: 3238
+  numberOfBytes: 75545188877993
+  numberOfFiles: 2866
   numberOfSubjects: 139
   schemaKey: AssetsSummary
   species:
@@ -53,8 +53,7 @@ citation: International Brain Laboratory; Benson, Brandon; Benson, Julius; Birma
   Alejandro; Pouget, Alexandre; Rossant, Cyrille; Roth, Noam; Schaeffer, Rylan; Schartner,
   Michael; Shi, Yanliang; Socha, Karolina; Steinmetz, Nicholas; Svoboda, Karel; Urai,
   Anne; Wells, Miles; West, Steven; Whiteway, Mathew; Winter, Olivier; Witten, Ilana
-  (2025) IBL - Brain Wide Map [deprecated] (Version draft) [Data set]. DANDI Archive.
-  https://dandiarchive.org/dandiset/000409/draft
+  (2026) IBL - Brain Wide Map (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000409/draft
 contributor:
 - contactPoint: []
   email: info@internationalbrainlab.org
@@ -460,7 +459,7 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000409/versions/draft/assets/
-name: IBL - Brain Wide Map [deprecated]
+name: IBL - Brain Wide Map
 relatedResource:
 - identifier: https://doi.org/10.1101/2023.07.04.547681
   name: A Brain-Wide Map of Neural Activity during Complex Behaviour
