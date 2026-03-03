@@ -9,27 +9,27 @@ access:
   status: dandi:OpenAccess
 assetsSummary:
   approach:
-  - name: behavioral approach
-    schemaKey: ApproachType
   - name: electrophysiological approach
+    schemaKey: ApproachType
+  - name: behavioral approach
     schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
-  - name: multi electrode extracellular electrophysiology recording technique
-    schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 72494926813906
-  numberOfFiles: 2203
+  numberOfBytes: 49697687855620
+  numberOfFiles: 2044
   numberOfSubjects: 139
   schemaKey: AssetsSummary
   species:
@@ -39,10 +39,8 @@ assetsSummary:
   variableMeasured:
   - ElectricalSeries
   - ElectrodeGroup
-  - CompassDirection
-  - Units
   - SpatialSeries
-  - PupilTracking
+  - Units
   - ProcessingModule
 citation: International Brain Laboratory; Benson, Brandon; Benson, Julius; Birman,
   Daniel; Bonacchi, Niccolò; Carandini, Matteo; Catarino, Joana; Chapuis, Gaelle;
