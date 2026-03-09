@@ -51,7 +51,7 @@ citation: International Brain Laboratory; Benson, Brandon; Benson, Julius; Birma
   Alejandro; Pouget, Alexandre; Rossant, Cyrille; Roth, Noam; Schaeffer, Rylan; Schartner,
   Michael; Shi, Yanliang; Socha, Karolina; Steinmetz, Nicholas; Svoboda, Karel; Urai,
   Anne; Wells, Miles; West, Steven; Whiteway, Mathew; Winter, Olivier; Witten, Ilana
-  (2026) IBL - Brain Wide Map (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000409/draft
+  (2026) IBL - Brain Wide Map (Version 0.260309.1324) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.000409/0.260309.1324
 contributor:
 - contactPoint: []
   email: info@internationalbrainlab.org
@@ -431,6 +431,7 @@ contributor:
   name: Witten, Ilana
   schemaKey: Person
 dateCreated: '2023-01-31T21:47:46.772688+00:00'
+datePublished: '2026-03-09T13:24:10.741911+00:00'
 description: 'The International Brain lab (IBL) aims to understand the neural basis
   of decision-making in the mouse by gathering a whole-brain activity map composed
   of electrophysiological recordings pooled from multiple laboratories. We have systematically
@@ -441,8 +442,9 @@ description: 'The International Brain lab (IBL) aims to understand the neural ba
   the map, this data set contains other information gathered during the task: sensory
   stimuli presented to the mouse; mouse decisions and response times; and mouse pose
   information from video recordings and DeepLabCut analysis.'
+doi: 10.48324/dandi.000409/0.260309.1324
 ethicsApproval: []
-id: DANDI:000409/draft
+id: DANDI:000409/0.260309.1324
 identifier: DANDI:000409
 keywords:
 - International Brain Laboratory
@@ -456,8 +458,20 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000409/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000409/0.260309.1324/assets.yaml
 name: IBL - Brain Wide Map
+publishedBy:
+  endDate: '2026-03-09T13:24:10.741911+00:00'
+  id: urn:uuid:9eeebe0b-c49a-4fd6-b89f-be806767aeb5
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-03-09T13:24:10.741911+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:fed6a824-30c5-40b7-92d1-222dbe57ca22
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: https://doi.org/10.1101/2023.07.04.547681
   name: A Brain-Wide Map of Neural Activity during Complex Behaviour
@@ -486,6 +500,6 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
-url: https://dandiarchive.org/dandiset/000409/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000409/0.260309.1324
+version: 0.260309.1324
 wasGeneratedBy: []
