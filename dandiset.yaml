@@ -430,6 +430,15 @@ contributor:
   includeInCitation: true
   name: Witten, Ilana
   schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/01d74sk53
+    name: CatalystNeuro
+    schemaKey: Affiliation
+  identifier: 0000-0002-5937-7537
+  name: Mayorquin, Heberto
+  roleName:
+  - dcite:DataCurator
+  schemaKey: Person
 dateCreated: '2023-01-31T21:47:46.772688+00:00'
 description: 'The International Brain lab (IBL) aims to understand the neural basis
   of decision-making in the mouse by gathering a whole-brain activity map composed
