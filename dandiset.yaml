@@ -239,6 +239,7 @@ contributor:
   - identifier: https://ror.org/01swzsf04
     name: University of Geneva
     schemaKey: Affiliation
+  identifier: 0009-0000-4274-7127
   includeInCitation: true
   name: Findling, Charles
   schemaKey: Person
@@ -350,6 +351,7 @@ contributor:
   - identifier: https://ror.org/00cvxb145
     name: University of Washington
     schemaKey: Affiliation
+  identifier: 0009-0006-3956-7890
   includeInCitation: true
   name: Nylund, Kai
   schemaKey: Person
