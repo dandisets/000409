@@ -491,7 +491,11 @@ contributor:
   roleName:
   - dcite:DataCurator
   schemaKey: Person
-- identifier: 0000-0002-0854-9159
+- affiliation:
+  - identifier: https://ror.org/026nmvv73
+    name: Max Planck Institute for Biological Cybernetics
+    schemaKey: Affiliation
+  identifier: 0000-0002-0854-9159
   includeInCitation: true
   name: Bruijns, Sebastian A.
   schemaKey: Person
