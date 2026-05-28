@@ -93,8 +93,8 @@ citation: International Brain Laboratory; Benson, Brandon; Benson, Julius; Birma
   Alejandro; Pouget, Alexandre; Rossant, Cyrille; Roth, Noam; Schaeffer, Rylan; Schartner,
   Michael; Shi, Yanliang; Socha, Karolina; Steinmetz, Nicholas; Svoboda, Karel; Urai,
   Anne; Wells, Miles; West, Steven; Whiteway, Mathew; Winter, Olivier; Witten, Ilana;
-  Bruijns, Sebastian A. (2026) IBL - Brain Wide Map (Version draft) [Data set]. DANDI
-  Archive. https://dandiarchive.org/dandiset/000409/draft
+  Bruijns, Sebastian A.; Paninski, Liam (2026) IBL - Brain Wide Map (Version draft)
+  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000409/draft
 contributor:
 - contactPoint: []
   email: info@internationalbrainlab.org
@@ -215,7 +215,6 @@ contributor:
   - identifier: https://ror.org/03g001n57
     name: Champalimaud Foundation
     schemaKey: Affiliation
-  identifier: 0000-0002-1677-1489
   includeInCitation: true
   name: Fabbri, Michele
   schemaKey: Person
@@ -502,6 +501,16 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- affiliation:
+  - identifier: https://ror.org/00hj8s172
+    name: Columbia University
+    schemaKey: Affiliation
+  identifier: 0000-0002-0276-7032
+  includeInCitation: true
+  name: Paninski, Liam
+  roleName:
+  - dcite:Researcher
+  schemaKey: Person
 dateCreated: '2023-01-31T21:47:46.772688+00:00'
 description: 'The International Brain lab (IBL) aims to understand the neural basis
   of decision-making in the mouse by gathering a whole-brain activity map composed
