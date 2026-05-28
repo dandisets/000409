@@ -50,9 +50,40 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  - name: behavioral approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 49700602778159
+  numberOfFiles: 2048
+  numberOfSubjects: 139
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ElectricalSeries
+  - ElectrodeGroup
+  - SpatialSeries
+  - Units
+  - ProcessingModule
 citation: International Brain Laboratory; Benson, Brandon; Benson, Julius; Birman,
   Daniel; Bonacchi, Niccolò; Carandini, Matteo; Catarino, Joana; Chapuis, Gaelle;
   Dayan, Peter; DeWitt, Eric; Engel, Tatiana; Fabbri, Michele; Faulkner, Mayo; Fiete,
@@ -255,6 +286,7 @@ contributor:
   - identifier: https://ror.org/01swzsf04
     name: University of Geneva
     schemaKey: Affiliation
+  identifier: 0009-0001-4458-9561
   includeInCitation: true
   name: Hubert, Félix
   schemaKey: Person
@@ -310,7 +342,7 @@ contributor:
   - identifier: https://ror.org/0190ak572
     name: New York University
     schemaKey: Affiliation
-  identifier: 0009-0006-3956-7890
+  identifier: 0000-0003-4719-2487
   includeInCitation: true
   name: Noel, Jean-Paul
   schemaKey: Person
@@ -437,7 +469,7 @@ contributor:
   - identifier: https://ror.org/03g001n57
     name: Champalimaud Foundation
     schemaKey: Affiliation
-  identifier: 0000-0003-0548-2160
+  identifier: 0000-0001-9278-2721
   includeInCitation: true
   name: Winter, Olivier
   schemaKey: Person
@@ -445,6 +477,7 @@ contributor:
   - identifier: https://ror.org/00hx57361
     name: Princeton Universty
     schemaKey: Affiliation
+  identifier: 0000-0003-0548-2160
   includeInCitation: true
   name: Witten, Ilana
   schemaKey: Person
@@ -457,7 +490,8 @@ contributor:
   roleName:
   - dcite:DataCurator
   schemaKey: Person
-- includeInCitation: true
+- identifier: 0000-0002-0854-9159
+  includeInCitation: true
   name: Bruijns, Sebastian A.
   schemaKey: Person
 - identifier: https://ror.org/0290hax27
