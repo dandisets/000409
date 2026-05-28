@@ -3,45 +3,56 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.3/context.json
-about: []
+about:
+- identifier: http://purl.obolibrary.org/obo/UBERON_0001890
+  name: forebrain
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/UBERON_0001891
+  name: midbrain
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/UBERON_0002028
+  name: hindbrain
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/UBERON_0001893
+  name: telencephalon
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/UBERON_0001894
+  name: diencephalon
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/UBERON_0001895
+  name: metencephalon
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/UBERON_0005290
+  name: myelencephalon
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/UBERON_0000956
+  name: cerebral cortex
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/UBERON_0001900
+  name: thalamus
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/UBERON_0001898
+  name: hypothalamus
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/UBERON_0002435
+  name: striatum
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/UBERON_0002421
+  name: hippocampal formation
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/UBERON_0002037
+  name: cerebellum
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/UBERON_0001896
+  name: medulla oblongata
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  approach:
-  - name: electrophysiological approach
-    schemaKey: ApproachType
-  - name: behavioral approach
-    schemaKey: ApproachType
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique:
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
-  - name: multi electrode extracellular electrophysiology recording technique
-    schemaKey: MeasurementTechniqueType
-  - name: analytical technique
-    schemaKey: MeasurementTechniqueType
-  - name: behavioral technique
-    schemaKey: MeasurementTechniqueType
-  - name: spike sorting technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 49700602778159
-  numberOfFiles: 2048
-  numberOfSubjects: 139
+  numberOfBytes: 0
+  numberOfFiles: 0
   schemaKey: AssetsSummary
-  species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
-    name: Mus musculus - House mouse
-    schemaKey: SpeciesType
-  variableMeasured:
-  - ElectricalSeries
-  - ElectrodeGroup
-  - SpatialSeries
-  - Units
-  - ProcessingModule
 citation: International Brain Laboratory; Benson, Brandon; Benson, Julius; Birman,
   Daniel; Bonacchi, Niccolò; Carandini, Matteo; Catarino, Joana; Chapuis, Gaelle;
   Dayan, Peter; DeWitt, Eric; Engel, Tatiana; Fabbri, Michele; Faulkner, Mayo; Fiete,
@@ -50,8 +61,9 @@ citation: International Brain Laboratory; Benson, Brandon; Benson, Julius; Birma
   Lau, Petrina; Meijer, Guido; Miska, Nathaniel; Noel, Jean-Paul; Nylund, Kai; Pan-Vazquez,
   Alejandro; Pouget, Alexandre; Rossant, Cyrille; Roth, Noam; Schaeffer, Rylan; Schartner,
   Michael; Shi, Yanliang; Socha, Karolina; Steinmetz, Nicholas; Svoboda, Karel; Urai,
-  Anne; Wells, Miles; West, Steven; Whiteway, Mathew; Winter, Olivier; Witten, Ilana
-  (2026) IBL - Brain Wide Map (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000409/draft
+  Anne; Wells, Miles; West, Steven; Whiteway, Mathew; Winter, Olivier; Witten, Ilana;
+  Bruijns, Sebastian A. (2026) IBL - Brain Wide Map (Version draft) [Data set]. DANDI
+  Archive. https://dandiarchive.org/dandiset/000409/draft
 contributor:
 - contactPoint: []
   email: info@internationalbrainlab.org
@@ -100,6 +112,7 @@ contributor:
   - identifier: https://ror.org/0190ak572
     name: New York University
     schemaKey: Affiliation
+  identifier: 0000-0001-7877-5939
   includeInCitation: true
   name: Benson, Julius
   schemaKey: Person
@@ -139,6 +152,7 @@ contributor:
   - identifier: https://ror.org/01swzsf04
     name: University of Geneva
     schemaKey: Affiliation
+  identifier: 0000-0002-0269-7732
   includeInCitation: true
   name: Chapuis, Gaelle
   schemaKey: Person
@@ -170,6 +184,7 @@ contributor:
   - identifier: https://ror.org/03g001n57
     name: Champalimaud Foundation
     schemaKey: Affiliation
+  identifier: 0000-0002-1677-1489
   includeInCitation: true
   name: Fabbri, Michele
   schemaKey: Person
@@ -200,6 +215,7 @@ contributor:
   - identifier: https://ror.org/03g001n57
     name: Champalimaud Foundation
     schemaKey: Affiliation
+  identifier: 0000-0002-6336-1220
   includeInCitation: true
   name: Freitas-Silva, Laura
   schemaKey: Person
@@ -262,6 +278,7 @@ contributor:
   - identifier: https://ror.org/02qz8b764
     name: Cold Spring Harbor Laboratory
     schemaKey: Affiliation
+  identifier: 0000-0001-5167-7626
   includeInCitation: true
   name: Langdon, Christopher
   schemaKey: Person
@@ -293,7 +310,7 @@ contributor:
   - identifier: https://ror.org/0190ak572
     name: New York University
     schemaKey: Affiliation
-  identifier: 0000-0001-5297-3363
+  identifier: 0009-0006-3956-7890
   includeInCitation: true
   name: Noel, Jean-Paul
   schemaKey: Person
@@ -380,6 +397,7 @@ contributor:
   - identifier: https://ror.org/04szwah67
     name: Allen Institute for Neural Dynamics
     schemaKey: Affiliation
+  identifier: 0000-0002-6670-7362
   includeInCitation: true
   name: Svoboda, Karel
   schemaKey: Person
@@ -419,7 +437,7 @@ contributor:
   - identifier: https://ror.org/03g001n57
     name: Champalimaud Foundation
     schemaKey: Affiliation
-  identifier: 0000-0001-9278-2721
+  identifier: 0000-0003-0548-2160
   includeInCitation: true
   name: Winter, Olivier
   schemaKey: Person
@@ -439,6 +457,15 @@ contributor:
   roleName:
   - dcite:DataCurator
   schemaKey: Person
+- includeInCitation: true
+  name: Bruijns, Sebastian A.
+  schemaKey: Person
+- identifier: https://ror.org/0290hax27
+  includeInCitation: false
+  name: Gatsby Charitable Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2023-01-31T21:47:46.772688+00:00'
 description: 'The International Brain lab (IBL) aims to understand the neural basis
   of decision-making in the mouse by gathering a whole-brain activity map composed
@@ -487,11 +514,17 @@ relatedResource:
     https://figshare.com/articles/preprint/A_standardized_and_reproducible_method_to_measure_decision-making_in_mice_Appendix_2_IBL_protocol_for_mice_training/11634729
 - identifier: ''
   name: Conversion Software
-  relation: dcite:IsSourceOf
-  repository: catalystneuro/IBL-to-nwb
+  relation: dcite:IsCompiledBy
+  repository: https://github.com/catalystneuro/IBL-to-nwb
   resourceType: dcite:Software
   schemaKey: Resource
   url: https://github.com/catalystneuro/IBL-to-nwb
+- name: IBL - Brain Wide Map Usage Notebook
+  relation: dcite:IsSupplementedBy
+  resourceType: dcite:ComputationalNotebook
+  schemaKey: Resource
+  url: 
+    https://github.com/dandi/example-notebooks/blob/master/000409/IBL/bwm_usage_notebook.ipynb
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
