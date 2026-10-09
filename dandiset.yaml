@@ -544,20 +544,20 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000409/versions/draft/assets/
 name: IBL - Brain Wide Map
 relatedResource:
-- identifier: https://doi.org/10.1101/2023.07.04.547681
-  name: A Brain-Wide Map of Neural Activity during Complex Behaviour
+- identifier: https://doi.org/10.1038/s41586-025-09235-0
+  name: A brain-wide map of neural activity during complex behaviour
   relation: dcite:IsDescribedBy
-  resourceType: dcite:Preprint
+  resourceType: dcite:JournalArticle
   schemaKey: Resource
-  url: https://www.biorxiv.org/content/10.1101/2023.07.04.547681v2
+  url: https://www.nature.com/articles/s41586-025-09235-0
 - name: Data release - Brainwide map - Q4 2022
   relation: dcite:IsDescribedBy
   schemaKey: Resource
   url: 
     https://figshare.com/articles/preprint/Data_release_-_Brainwide_map_-_Q4_2022/21400815
-- identifier: https://doi.org/10.1101/2020.01.17.909838
+- identifier: https://doi.org/10.6084/m9.figshare.11634729.v5
   name: 'Behavior: Appendix 2: IBL protocol for mice training'
-  relation: dcite:IsDescribedBy
+  relation: dcite:IsDocumentedBy
   schemaKey: Resource
   url: 
     https://figshare.com/articles/preprint/A_standardized_and_reproducible_method_to_measure_decision-making_in_mice_Appendix_2_IBL_protocol_for_mice_training/11634729
